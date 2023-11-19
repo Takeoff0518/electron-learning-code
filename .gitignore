@@ -1,0 +1,62 @@
+# Node.js
+node_modules/
+
+# Output of 'npm pack'
+*.tgz
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# User-specific files
+*.log
+*.swp
+*.swo
+*.bak
+*.VSCodeUserSettings.json
+.vscode/
+
+# Build folders
+/dist/
+/out/
+/electron-out/
+
+# Dependency directories
+/electron-quick-start/node_modules/
+/electron-quick-start/src/node_modules/
+/electron-quick-start/src/renderer/node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# User-specific files
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.swo
+*.tmp
+*.tmp.*
+*.log
+*.pot
+*.err
+*.min.css
+*.min.js
+.vscode/
+
+# Visual Studio Code directories
+.vscode/
+.history/
