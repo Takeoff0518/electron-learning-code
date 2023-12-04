@@ -12,8 +12,16 @@ function createMainWindow() {
         height: 600 // 窗口高度
     });
 
+    mainWindow.webContents.openDevTools();
+
+    // 生成要加载的初始URL
+    const startUrl = url.format({
+        pathname: path.join(__dirname, './app/build/index.html'),
+        protocol: 'file'
+    });
+
     // 加载初始URL到主窗口
-    mainWindow.loadURL('http://localhost:3000');
+    mainWindow.loadURL(startUrl);
 }
 
 // 当应用程序准备好时，创建主窗口
